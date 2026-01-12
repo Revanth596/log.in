@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RC Constructions – Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="loginPage">
+  <div class="login-box">
+    <h2>RC CONSTRUCTIONS</h2>
+    <input id="user" placeholder="Username">
+    <input id="pass" type="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+    <p id="err"></p>
+  </div>
+</div>
+
+<div id="mainPage">
+  <header>
+    <h1>RC CONSTRUCTIONS</h1>
+    <p>Login successful</p>
+  </header>
+
+  <button class="logout-btn" onclick="logout()">Logout</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
